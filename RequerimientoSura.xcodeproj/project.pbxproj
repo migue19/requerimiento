@@ -14,6 +14,9 @@
 		B854F9EB206199CC0039C8D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B854F9E9206199CC0039C8D6 /* LaunchScreen.storyboard */; };
 		B854F9F6206199CC0039C8D6 /* RequerimientoSuraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854F9F5206199CC0039C8D6 /* RequerimientoSuraTests.swift */; };
 		B854FA01206199CC0039C8D6 /* RequerimientoSuraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854FA00206199CC0039C8D6 /* RequerimientoSuraUITests.swift */; };
+		B854FA0F2062C42E0039C8D6 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854FA0E2062C42E0039C8D6 /* CustomButton.swift */; };
+		B854FA112062C4840039C8D6 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854FA102062C4840039C8D6 /* Colors.swift */; };
+		B854FA132062DCDE0039C8D6 /* SuenosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B854FA122062DCDE0039C8D6 /* SuenosTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		B854F9FC206199CC0039C8D6 /* RequerimientoSuraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RequerimientoSuraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B854FA00206199CC0039C8D6 /* RequerimientoSuraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequerimientoSuraUITests.swift; sourceTree = "<group>"; };
 		B854FA02206199CC0039C8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B854FA0E2062C42E0039C8D6 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		B854FA102062C4840039C8D6 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		B854FA122062DCDE0039C8D6 /* SuenosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuenosTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				B854F9E0206199CC0039C8D6 /* AppDelegate.swift */,
 				B854F9E2206199CC0039C8D6 /* ViewController.swift */,
+				B854FA0E2062C42E0039C8D6 /* CustomButton.swift */,
+				B854FA102062C4840039C8D6 /* Colors.swift */,
+				B854FA122062DCDE0039C8D6 /* SuenosTableViewCell.swift */,
 				B854F9E4206199CC0039C8D6 /* Main.storyboard */,
 				B854F9E7206199CC0039C8D6 /* Assets.xcassets */,
 				B854F9E9206199CC0039C8D6 /* LaunchScreen.storyboard */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B854FA132062DCDE0039C8D6 /* SuenosTableViewCell.swift in Sources */,
 				B854F9E3206199CC0039C8D6 /* ViewController.swift in Sources */,
+				B854FA112062C4840039C8D6 /* Colors.swift in Sources */,
 				B854F9E1206199CC0039C8D6 /* AppDelegate.swift in Sources */,
+				B854FA0F2062C42E0039C8D6 /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
